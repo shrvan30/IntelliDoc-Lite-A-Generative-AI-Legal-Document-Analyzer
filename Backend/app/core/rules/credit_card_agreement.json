@@ -1,0 +1,25 @@
+{
+  "document_type": "credit_card_agreement",
+  "clauses": {
+    "interest_rate": {
+      "keywords": ["interest", "APR", "annual percentage rate", "finance charge"],
+      "description": "Defines the rate of interest applied to unpaid balances."
+    },
+    "fees": {
+      "keywords": ["late fee", "annual fee", "overlimit fee", "cash advance fee"],
+      "description": "Lists charges applicable to the credit card usage."
+    },
+    "repayment_terms": {
+      "keywords": ["payment due", "minimum payment", "billing cycle"],
+      "description": "Explains repayment obligations and due dates."
+    },
+    "default": {
+      "keywords": ["default", "non-payment", "delinquency", "collection"],
+      "description": "Outlines consequences of failure to pay."
+    },
+    "dispute_resolution": {
+      "keywords": ["arbitration", "dispute", "settlement", "court"],
+      "description": "Specifies how disputes will be resolved."
+    }
+  }
+}

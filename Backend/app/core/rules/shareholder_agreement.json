@@ -1,0 +1,25 @@
+{
+  "document_type": "shareholder_agreement",
+  "clauses": {
+    "share_allocation": {
+      "keywords": ["shares", "ownership", "equity", "capital"],
+      "description": "Defines distribution of shares among shareholders."
+    },
+    "voting_rights": {
+      "keywords": ["voting", "decision", "board", "meeting"],
+      "description": "Specifies voting rights and decision-making process."
+    },
+    "transfer_of_shares": {
+      "keywords": ["transfer", "sale", "pre-emption", "buyback"],
+      "description": "Regulates how shares may be sold or transferred."
+    },
+    "dividends": {
+      "keywords": ["dividend", "profit distribution", "payout"],
+      "description": "Explains how profits and dividends are distributed."
+    },
+    "dispute_resolution": {
+      "keywords": ["arbitration", "court", "jurisdiction"],
+      "description": "Details methods for resolving shareholder disputes."
+    }
+  }
+}

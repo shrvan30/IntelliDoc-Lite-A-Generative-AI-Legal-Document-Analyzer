@@ -1,0 +1,25 @@
+{
+  "document_type": "promissory_note",
+  "clauses": {
+    "principal_amount": {
+      "keywords": ["principal", "loan amount", "sum owed"],
+      "description": "States the amount borrowed or owed."
+    },
+    "interest_rate": {
+      "keywords": ["interest", "rate", "APR"],
+      "description": "Specifies the interest payable on the note."
+    },
+    "maturity_date": {
+      "keywords": ["maturity", "due date", "repayment date"],
+      "description": "Defines when repayment must be completed."
+    },
+    "default": {
+      "keywords": ["default", "non-payment", "late payment"],
+      "description": "Explains what happens if payment is missed."
+    },
+    "signatures": {
+      "keywords": ["signed", "endorsement", "witness"],
+      "description": "Indicates parties’ signatures validating the note."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "document_type": "bank_terms",
+  "clauses": {
+    "account_opening": {
+      "keywords": ["account opening", "eligibility", "KYC", "identity verification"],
+      "description": "Outlines requirements to open an account."
+    },
+    "interest_and_fees": {
+      "keywords": ["interest", "charges", "fees", "service charge"],
+      "description": "Specifies applicable interest and service fees."
+    },
+    "liability": {
+      "keywords": ["liability", "loss", "fraud", "unauthorized transaction"],
+      "description": "Defines bank and customer liability in case of loss."
+    },
+    "dispute_resolution": {
+      "keywords": ["complaint", "arbitration", "jurisdiction", "grievance"],
+      "description": "Explains how disputes or complaints are handled."
+    },
+    "termination": {
+      "keywords": ["account closure", "termination", "suspension"],
+      "description": "Specifies the conditions for closing the account."
+    }
+  }
+}

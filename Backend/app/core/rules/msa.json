@@ -1,0 +1,29 @@
+{
+  "document_type": "msa",
+  "clauses": {
+    "scope_of_work": {
+      "keywords": ["scope", "services", "deliverables", "statement of work"],
+      "description": "Defines the scope and nature of services to be provided."
+    },
+    "payment_terms": {
+      "keywords": ["payment", "invoice", "billing", "fees"],
+      "description": "Details payment obligations and invoicing terms."
+    },
+    "confidentiality": {
+      "keywords": ["confidential", "non-disclosure", "proprietary information"],
+      "description": "Protects confidential business information."
+    },
+    "indemnity": {
+      "keywords": ["indemnify", "liability", "loss", "damages"],
+      "description": "Defines indemnification obligations of the parties."
+    },
+    "termination": {
+      "keywords": ["termination", "breach", "notice period"],
+      "description": "Outlines how and when the agreement can end."
+    },
+    "governing_law": {
+      "keywords": ["jurisdiction", "law", "court"],
+      "description": "Specifies governing law and jurisdiction."
+    }
+  }
+}

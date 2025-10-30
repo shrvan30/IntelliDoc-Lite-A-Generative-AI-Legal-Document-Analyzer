@@ -1,0 +1,25 @@
+{
+  "document_type": "nda",
+  "clauses": {
+    "confidential_information": {
+      "keywords": ["confidential", "information", "trade secret", "proprietary"],
+      "description": "Defines what information is considered confidential."
+    },
+    "obligations": {
+      "keywords": ["obligation", "duty", "non-disclosure", "protection"],
+      "description": "Specifies obligations of parties to protect information."
+    },
+    "term": {
+      "keywords": ["duration", "term", "period", "validity"],
+      "description": "Defines how long confidentiality obligations last."
+    },
+    "exclusions": {
+      "keywords": ["excluded", "public domain", "prior knowledge"],
+      "description": "Lists information not covered under confidentiality."
+    },
+    "remedies": {
+      "keywords": ["injunction", "damages", "remedy", "breach"],
+      "description": "Specifies remedies for breach of confidentiality."
+    }
+  }
+}

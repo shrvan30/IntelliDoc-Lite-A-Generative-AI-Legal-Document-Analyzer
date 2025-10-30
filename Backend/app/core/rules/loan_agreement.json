@@ -1,0 +1,25 @@
+{
+  "document_type": "loan_agreement",
+  "clauses": {
+    "interest_rate": {
+      "keywords": ["interest", "annual rate", "APR", "fixed rate", "variable rate"],
+      "description": "Defines the interest rate applicable to the loan."
+    },
+    "repayment": {
+      "keywords": ["installment", "repayment", "schedule", "due date"],
+      "description": "Specifies how and when loan repayment occurs."
+    },
+    "default": {
+      "keywords": ["default", "non-payment", "event of default"],
+      "description": "Describes borrower default conditions and consequences."
+    },
+    "collateral": {
+      "keywords": ["security", "mortgage", "pledge"],
+      "description": "Identifies assets pledged as loan security."
+    },
+    "jurisdiction": {
+      "keywords": ["governing law", "jurisdiction", "court"],
+      "description": "Specifies which law and court have authority."
+    }
+  }
+}

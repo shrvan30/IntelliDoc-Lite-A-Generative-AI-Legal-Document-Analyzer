@@ -1,0 +1,169 @@
+# ===============================================
+# 🧠 IntelliDoc Lite - Custom Git Ignore Rules
+# Base: GitHub Default Python .gitignore
+# ===============================================
+
+# -------------------------------
+# Byte-compiled / optimized / DLL files
+# -------------------------------
+__pycache__/
+*.py[codz]
+*$py.class
+
+# -------------------------------
+# C extensions
+# -------------------------------
+*.so
+
+# -------------------------------
+# Distribution / packaging
+# -------------------------------
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# -------------------------------
+# PyInstaller
+# -------------------------------
+*.manifest
+*.spec
+
+# -------------------------------
+# Installer logs
+# -------------------------------
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -------------------------------
+# Unit test / coverage reports
+# -------------------------------
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# -------------------------------
+# Translations
+# -------------------------------
+*.mo
+*.pot
+
+# -------------------------------
+# Django / Flask / FastAPI
+# -------------------------------
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+
+# -------------------------------
+# Sphinx / PyBuilder / Jupyter
+# -------------------------------
+docs/_build/
+.pybuilder/
+target/
+.ipynb_checkpoints/
+
+# -------------------------------
+# pyenv / pipenv / poetry / pdm
+# -------------------------------
+.python-version
+Pipfile.lock
+poetry.lock
+pdm.lock
+.pdm-python
+.pdm-build/
+
+# -------------------------------
+# IDE / Editors
+# -------------------------------
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------------
+# Type checkers / linters
+# -------------------------------
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# -------------------------------
+# AI / LLM Project Specific
+# -------------------------------
+# Local vector DBs, model caches, and OCR uploads
+chroma_db/
+uploads/
+temp/
+logs/
+__pypackages__/
+*.sqlite3
+*.db
+*.sql
+*.log
+*.jsonl
+
+# -------------------------------
+# Virtual Environments
+# -------------------------------
+.env
+.env.local
+.envrc
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# -------------------------------
+# Generated Reports / Media
+# -------------------------------
+output/
+reports/
+screenshots/
+exports/
+*.pdf
+
+# -------------------------------
+# Misc
+# -------------------------------
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+cursor/
+.cursorignore
+.cursorindexingignore

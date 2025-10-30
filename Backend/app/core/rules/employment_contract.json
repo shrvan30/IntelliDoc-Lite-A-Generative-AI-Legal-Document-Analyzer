@@ -1,0 +1,29 @@
+{
+  "document_type": "employment_contract",
+  "clauses": {
+    "position_and_duties": {
+      "keywords": ["position", "role", "duties", "responsibilities"],
+      "description": "Defines employee’s job title and duties."
+    },
+    "compensation": {
+      "keywords": ["salary", "wage", "bonus", "allowance"],
+      "description": "Specifies payment structure and benefits."
+    },
+    "probation": {
+      "keywords": ["probation", "trial period", "confirmation"],
+      "description": "Defines probationary period conditions."
+    },
+    "termination": {
+      "keywords": ["termination", "notice", "resignation", "dismissal"],
+      "description": "Explains how employment can be terminated."
+    },
+    "confidentiality": {
+      "keywords": ["confidential", "non-disclosure", "proprietary"],
+      "description": "Ensures employee confidentiality obligations."
+    },
+    "governing_law": {
+      "keywords": ["jurisdiction", "law", "court"],
+      "description": "Specifies applicable legal jurisdiction."
+    }
+  }
+}

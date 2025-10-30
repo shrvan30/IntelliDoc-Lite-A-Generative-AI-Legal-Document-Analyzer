@@ -1,0 +1,25 @@
+{
+  "document_type": "consultancy_agreement",
+  "clauses": {
+    "scope_of_services": {
+      "keywords": ["services", "scope", "deliverables", "tasks"],
+      "description": "Defines services to be performed by consultant."
+    },
+    "fees_and_payment": {
+      "keywords": ["payment", "fees", "invoice", "expenses"],
+      "description": "Outlines payment structure and reimbursement terms."
+    },
+    "confidentiality": {
+      "keywords": ["confidential", "non-disclosure", "proprietary"],
+      "description": "Protects confidential information shared during work."
+    },
+    "intellectual_property": {
+      "keywords": ["intellectual property", "ownership", "copyright"],
+      "description": "Clarifies IP ownership of work produced."
+    },
+    "termination": {
+      "keywords": ["termination", "notice", "breach"],
+      "description": "Defines how the agreement can be ended."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "document_type": "mortgage_deed",
+  "clauses": {
+    "property_details": {
+      "keywords": ["property", "land", "address", "description of property"],
+      "description": "Identifies the mortgaged property."
+    },
+    "loan_amount": {
+      "keywords": ["principal", "loan amount", "mortgage sum"],
+      "description": "Specifies the total borrowed amount."
+    },
+    "interest_rate": {
+      "keywords": ["interest rate", "fixed rate", "variable rate"],
+      "description": "Defines the rate of interest applicable to the mortgage."
+    },
+    "repayment": {
+      "keywords": ["repayment", "installments", "payment schedule"],
+      "description": "Describes how the mortgage loan is repaid."
+    },
+    "default": {
+      "keywords": ["default", "foreclosure", "non-payment"],
+      "description": "Defines conditions under which lender can foreclose."
+    },
+    "governing_law": {
+      "keywords": ["jurisdiction", "governing law", "court"],
+      "description": "Specifies applicable law and jurisdiction."
+    }
+  }
+}
