@@ -20,7 +20,7 @@ It automates clause extraction, risk detection, and compliance verification — 
 - ⚙️ **FastAPI backend** for document parsing and inference endpoints  
 - 🧰 **Streamlit UI** for intuitive, interactive user experience  
 - 🧾 **Multi-document support** for batch analysis and reporting  
-- 🔒 Modular **LLM layer** supporting both **OpenAI** and **local models (Llama 3 7B via Ollama)**  
+- 🔒 Modular **LLM layer** supporting **local models (Llama 3 7B via Ollama)**  
 
 ---
 
@@ -53,7 +53,7 @@ It automates clause extraction, risk detection, and compliance verification — 
 - **LangChain Core:** `langchain`, `langchain-community`, `langchain-ollama`  
   - Enables prompt chaining, retrieval-augmented generation (RAG), and multi-model pipelines  
 - **Model Engines:**  
-  - **Llama 3 (7B)** via **Ollama** — for local legal reasoning  
+  - **Llama 3 (8B)** via **Ollama** — for local legal reasoning  
   - Optional: **OpenAI GPT models** (configurable through `.env`)  
 - **Embeddings:** `sentence-transformers` & `transformers` for text embeddings  
 - **ML Backend:** `torch` (PyTorch) for deep learning inference  
