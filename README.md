@@ -27,7 +27,6 @@ It automates clause extraction, risk detection, and compliance verification — 
 
 ## 🧩 Architecture
 
-![Architecture](docs/architecture.png)
 
 ### 🧱 Model Stack
 | Component | Description |
@@ -39,6 +38,16 @@ It automates clause extraction, risk detection, and compliance verification — 
 | **Persistence** | Local or Dockerized setup for reproducible deployment |
 
 ## 🧠 Tech Stack
+
+
+### 💻 Frontend
+- **Framework:** React (Vite) — High-performance, dynamic Single Page Application (SPA)
+- **Styling & UX:**-Tailwind CSS + Framer Motion — Modern "frosted glass" aesthetic with fluid, reactive animations
+- **"Proactive AI" Components**: Includes dynamic interface elements like a Global Clause Finder and AI Action Items tab, making the system feel like it's actively working for the user.
+- **Integration:Seamless REST API communication with the FastAPI backend
+-  **Key Features**: Responsive bento-grid dashboard, real-time chat interface with typing simulation, and interactive document visualization.
+
+---
 
 ### 🧩 Backend
 - **Framework:** FastAPI — high-performance async web framework for APIs  
@@ -64,15 +73,6 @@ It automates clause extraction, risk detection, and compliance verification — 
 ### 🧮 Vector Database & Semantic Search
 - **Vector Store:** `ChromaDB` — efficient similarity search for document embeddings  
 - **Usage:** Semantic retrieval for clause-level matching and compliance context  
-
----
-
-### 💻 Frontend
-- **Framework:**React (Vite) — High-performance, dynamic Single Page Application (SPA)
-- **Styling & UX:**-Tailwind CSS + Framer Motion — Modern "frosted glass" aesthetic with fluid, reactive animations
-- **"Proactive AI" Components**: Includes dynamic interface elements like a Global Clause Finder and AI Action Items tab, making the system feel like it's actively working for the user.
-- **Integration:**Seamless REST API communication with the FastAPI backend
--  **Key Features**: Responsive bento-grid dashboard, real-time chat interface with typing simulation, and interactive document visualization.
 
 ---
 
