@@ -18,7 +18,8 @@ It automates clause extraction, risk detection, and compliance verification — 
 - 📑 **Rule-based legal compliance engine** using customizable JSON rules  
 - 🔍 **Semantic retrieval** via **ChromaDB vector database**  
 - ⚙️ **FastAPI backend** for document parsing and inference endpoints  
-- 🧰 **Streamlit UI** for intuitive, interactive user experience  
+- ✨ Modern React Frontend featuring a dynamic  responsive bento grids,
+       and fluid animations powered by Framer Motion and Tailwind CSS
 - 🧾 **Multi-document support** for batch analysis and reporting  
 - 🔒 Modular **LLM layer** supporting **local models (Llama 3 7B via Ollama)**  
 
@@ -34,7 +35,7 @@ It automates clause extraction, risk detection, and compliance verification — 
 | **LLM Backbone** | Meta **Llama 3 (7B)** integrated locally via **Ollama** for document reasoning |
 | **Vector Store** | **ChromaDB** for semantic embedding-based retrieval |
 | **API Layer** | **FastAPI** handles file parsing, model inference, and rule validation |
-| **Frontend** | **Streamlit** UI for interactive clause analysis and visualization |
+| **Frontend** | **React** Frontend for a highly interactive and responsive user experience |
 | **Persistence** | Local or Dockerized setup for reproducible deployment |
 
 ## 🧠 Tech Stack
@@ -67,8 +68,11 @@ It automates clause extraction, risk detection, and compliance verification — 
 ---
 
 ### 💻 Frontend
-- **Framework:** Streamlit — intuitive, lightweight UI for LLM output visualization  
-- **Integration:** Direct API calls to FastAPI backend for real-time inference  
+- **Framework:**React (Vite) — High-performance, dynamic Single Page Application (SPA)
+- **Styling & UX:**-Tailwind CSS + Framer Motion — Modern "frosted glass" aesthetic with fluid, reactive animations
+- **"Proactive AI" Components**: Includes dynamic interface elements like a Global Clause Finder and AI Action Items tab, making the system feel like it's actively working for the user.
+- **Integration:**Seamless REST API communication with the FastAPI backend
+-  **Key Features**: Responsive bento-grid dashboard, real-time chat interface with typing simulation, and interactive document visualization.
 
 ---
 
@@ -89,6 +93,9 @@ pip install -r requirements.txt
 # 4️⃣ Start the FastAPI backend
 uvicorn app.routes.main:app --reload
 
-# 5️⃣ Launch the Streamlit UI
-streamlit run ui/streamlit_app.py
+#4️ Install core React & utility dependencies
+npm install react-router-dom framer-motion react-icons
+
+# Install Tailwind CSS dependencies
+npm install -D tailwindcss postcss autoprefixer @tailwindcss/postcss
 
